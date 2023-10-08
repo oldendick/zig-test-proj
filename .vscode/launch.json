@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // check the manual for how to configure
+            // https://github.com/vadimcn/codelldb/blob/v1.10.0/MANUAL.md
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch",
+            "program": "${workspaceFolder}/zig-out/bin/${workspaceFolderBasename}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false
+        },
+    ]
+}
